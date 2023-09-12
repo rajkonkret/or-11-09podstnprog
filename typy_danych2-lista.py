@@ -109,3 +109,5 @@ print(lista_1)  # ['P', 'y', 't', 'h', 'o', 'n'] - [] lista
 # rozpakowanie sekwencji
 lista_2 = [tekst]  # stworzenie listy o jednym elemncie podanym w zmiennej
 print(lista_2)  # ['Python']
+
+print(lista_1 + lista_2)  # ['P', 'y', 't', 'h', 'o', 'n', 'Python']
