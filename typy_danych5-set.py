@@ -63,3 +63,4 @@ _, value, _ = [1, 2, 3]
 print(value)  # 2
 # jeszcze chwilka
 # 10 minut
+print(_)
