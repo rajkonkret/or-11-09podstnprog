@@ -61,3 +61,5 @@ print(first, second, third)  # A B C
 a, b, c = 1, 2, 3
 _, value, _ = [1, 2, 3]
 print(value)  # 2
+# jeszcze chwilka
+# 10 minut
