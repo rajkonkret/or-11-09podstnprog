@@ -57,9 +57,10 @@ print(lista_dict[0])  # 0 pierwszy elemnt z listy
 dictionary3 = {'name': 'imie', 'company': 'Orange'}
 print(dictionary3)  # {'name': 'imie', 'company': 'Orange'}
 
-print({value: key for key, value in dictionary3.items()})
+print({value: key for key, value in dictionary3.items()})  # zamiana kluczy z wartosciami i zapisanie do nowego słownika
 # {'imie': 'name', 'Orange': 'company'} - zamiana kluczy z warttościami
 
+# zamiana kluczy z wartoscimami w formie uprosczenej wielolinijkowej
 d2 = {}
 for key, value in dictionary3.items():
     print(key, '=>', value)  # company => Orange
