@@ -47,8 +47,18 @@ print(f"Zastosowanie filter(): {list(filter(lambda x: 3 < x < 20, lista))}")
 # x > 3 and x < 20 -> 3 < x <20
 # lista = [1, 2, 3, 4, 5, 6, 7, 8, 10, 23, 50]
 # ciekawostka wygenerowana za pomoca Tabnine
-# reduce() - zwraca najmniejszy zsumowany element kolekcji wg zadanej funkcji
+# reduce() - zwraca zredukowany zsumowany element kolekcji wg zadanej funkcji
 print(f"Zastosowanie reduce(): {reduce(lambda x, y: x + y, lista)}")
 # reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]) calculates
 #     ((((1+2)+3)+4)+5)
 print(f"Zastosowanie reduce(): {reduce(lambda x, y: x * y, lista)}")
+# 11:20
+result = 0
+for i in [1, 2, 3, 4, 5]:  # 1+2+3+4+5=15
+    result += i
+print(result)
+print(reduce(lambda x, y: x + y, [1, 2, 3, 4, 5]))
+# 15
+# 15
+list_str = ['a', 'b', 'c']
+print(reduce(lambda x, y: x + y, list_str))  # abc
