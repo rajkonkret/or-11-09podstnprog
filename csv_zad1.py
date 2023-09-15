@@ -15,13 +15,13 @@ dict_x = [
 dict2 = dict(zip(fields, row))
 print(dict2)  # {'name': 'radek', 'branch': 'coe', 'year': 3, 'cgpa': '9.1'}
 
-
 filename = 'records.csv'
 
 with open(filename, 'w', newline='', encoding='utf-8') as csv_f:
     # csvwriter = csv.writer(csv_f)
     # csvwriter.writerow(row)  # zapis pojedynczego wiersza
-    csvwriter = csv.DictWriter(csv_f, fieldnames=fields)
+    csvwriter = csv.DictWriter(csv_f, fieldnames=fields, delimiter="^")
+    # delimiter - wskazujemy znak odzielający elemnty w pliku csv
     csvwriter.writeheader()
     csvwriter.writerows(dict_x)
     csvwriter.writerow(dict2)
