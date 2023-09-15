@@ -16,3 +16,6 @@ print(df)
 # 1  Pandas  20000
 # 2  Python  15000
 # 3     PHP  18000
+
+print(df.columns[0])
+print(df.values[0])
