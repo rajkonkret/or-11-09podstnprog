@@ -19,3 +19,4 @@ except Exception as e:
 # MyException: Wystąpił wyjątek
 
 print("Nadal działam")  # Nadal działam
+# 11:15

@@ -13,7 +13,8 @@ with open('test.log', 'a', encoding='utf-8') as file:
     file.write("dodane\n")
     file.write("dodane\n")
     file.write("dodane\n")
-    file.write("dośdane\n")
+    file.write("dośdanedośdanedośdane\n")
+    file.write("dośćąanedośdanedośdane\n")
 
 with open('test.log', 'r', encoding='utf-8') as file:
     lines = file.read()
