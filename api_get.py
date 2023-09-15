@@ -33,3 +33,4 @@ print(table['code'])
 print(table['rates'])  # [{'no': '179/A/NBP/2023', 'effectiveDate': '2023-09-15', 'mid': 4.6307}]
 print(table['rates'][0])  # {'no': '179/A/NBP/2023', 'effectiveDate': '2023-09-15', 'mid': 4.6307}
 print(table['rates'][0]['mid'])  # 4.6307, usd = 4.3418
+# 13:25

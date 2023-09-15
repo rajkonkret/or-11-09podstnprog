@@ -1,9 +1,15 @@
 import chardet
+import os
 
 # pip install chardet
 
-file_path = 'test.log'
+# file_path = 'test.log'
+file_path = 'C:\\Users\\CSComarch\\PycharmProjects\\or-11-09podstnprog\\test.log'
 
+file_path_2 = os.path.abspath('test.log')
+# C:\Users\CSComarch\PycharmProjects\or-11-09podstnprog\test.log
+
+print(file_path_2)
 # wb - odczyt binarny (wymagania biblioteki)
 # binarnie poniewaz przy odczycie tekstowym system interpretuje bajty a przy binarnym
 # dostarcza bibliotece dokłądnie to co jest w pliku
